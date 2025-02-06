@@ -67,12 +67,12 @@
         color: #9e7eb6;
       }
       .first-band {
-        background-color: #E9D8Ff;
+        background-color: #e9d8ff;
         height: 85vh;
         background-size: cover;
         background-repeat: no-repeat;
         position: relative;
-        padding: 50px 30px;
+        padding: 70px 50px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -89,8 +89,9 @@
         position: relative;
         z-index: 2;
       }
-      .content h1{
-        color:#cd2a27;
+      .content h1 {
+        color: #cd2a27;
+        font-size: 50px;
       }
 
       .home-img {
@@ -134,47 +135,30 @@
         color: #fff;
       }
       .second-band {
-        background-color: #F3EAFF;;
-        padding: 50px 30px;
-      }
-      .card {
-        background-color: #202e32;
-        padding: 40px;
-        color: #fff;
-        border-radius: 15px;
-        height: 350px;
-        margin-bottom: 30px;
-      }
-      .card h1 {
-        font-size: 25px;
-        margin-bottom: 15px;
-      }
-      .card p {
-        margin-bottom: 0;
-        color: #bfbfbf;
-        font-weight: 400;
+        background-color: #f3eaff;
+        padding: 70px 50px;
       }
       .second-band-img img {
         width: 100%;
       }
       .second-band-img {
-    background-color: #b492de;
-    border-radius: 30px;
-    padding: 40px 0px 0px 10px;
-}
-.second-band .row{
-  align-items: center;
-}
-.second-band h1 {
-    color: #000;
-    width: 50%;
-    padding-left: 10px;
-    font-size: 40px;
-    font-weight: 500;
-}
-.second-band p{
-  padding-left: 10px;
-}
+        background-color: #b492de;
+        border-radius: 30px;
+        padding: 40px 0px 0px 10px;
+      }
+      .second-band .row {
+        align-items: center;
+      }
+      .second-band h1 {
+        color: #000;
+        width: 50%;
+        padding-left: 10px;
+        font-size: 40px;
+        font-weight: 500;
+      }
+      .second-band p {
+        padding-left: 10px;
+      }
       .header-part {
         display: flex;
         flex-direction: row;
@@ -183,9 +167,9 @@
       .header-part h1 {
         color: #666666;
       }
-      
+
       .third-band {
-        padding: 50px 30px;
+        padding: 70px 50px;
       }
       .third-band h1 {
         font-size: 40px;
@@ -197,17 +181,8 @@
         font-size: 17px;
         font-weight: 400;
       }
-      .last-band-img img{
+      .last-band-img img {
         width: 100%;
-      }
-      .card p {
-        font-size: 17px;
-        font-weight: 400;
-      }
-      .tick-border {
-        border: 1px solid #000;
-        border-radius: 20px;
-        padding: 25px;
       }
       .footer-content {
         text-align: center;
@@ -243,8 +218,7 @@
         background-color: #b492de;
         color: #000;
       }
-      .third-band 
-      input:focus,
+      .third-band input:focus,
       textarea:focus {
         background-color: #b492de !important;
       }
@@ -270,6 +244,7 @@
       }
       button:hover {
         background: #cb2a25;
+        color: #fff;
       }
       button:disabled {
         background: #cb2a25;
@@ -277,38 +252,16 @@
       }
       .last-band {
         background-color: #b492de;
-        padding: 50px 30px;
+        padding: 70px 50px;
       }
       .last-band h1 {
         color: #000;
         margin-bottom: 25px;
       }
-      .box {
-        background-color: #c6e76c;
-        padding: 40px;
-        border-radius: 30px;
-        margin-bottom: 30px;
-      }
-      .box h1 {
-        color: #000;
-        font-size: 28px;
-        font-weight: 500;
-      }
-      .box i {
-        font-size: 40px;
-        margin-bottom: 25px;
-      }
-      .box p {
-        font-size: 18px;
-        margin-bottom: 0;
-      }
       .last-band .row {
         align-items: center;
       }
-      .third-band-img img{
-        width: 100%;
-      }
-      .third-band .row{
+      .third-band .row {
         align-items: center;
       }
 
@@ -317,60 +270,42 @@
           width: 140px;
         }
       }
-      @media (min-width: 991px) and (max-width: 1200px) {
-        .card {
-          height: 490px;
-        }
-        .tick-border {
-          border-radius: 10px;
-          padding: 10px;
-        }
-      }
-      @media (max-width: 991px) {
-        .tick-border {
-          border-radius: 10px;
-          padding: 14px;
-        }
-      }
       @media (max-width: 767px) {
         .home-img {
           display: none;
         }
         .second-band h1 {
-    width: 100%;
-    text-align: center;
-}
-.third-band h1 {
-    width: 100%;
-    text-align: center;
-}
-.third-band p{
-  text-align: center;
-}
-.second-band-img {
-    margin-bottom: 25px;
-}
-form {
-    margin-bottom: 30px;
-}
-        .tick-border {
-          padding: 10px 35px !important;
+          width: 100%;
+          text-align: center;
+        }
+        .third-band h1 {
+          width: 100%;
+        }
+
+        .second-band-img {
+          margin-bottom: 25px;
+        }
+        form {
+          margin-bottom: 30px;
         }
       }
-      @media (max-width: 575px){
-        .second-row{
-        display: none;
+      @media (max-width: 575px) {
+        .second-row {
+          display: none;
+        }
+        .third-band-box {
+          margin-bottom: 30px;
+          border: 1px solid #c6e76c;
+          border-radius: 20px;
+          padding: 20px;
+          transition: 0.5s;
+        }
+        .third-band-box:hover {
+          box-shadow: 0 6px 12px #c6e76c;
+        }
       }
-      .third-band-box{
-        margin-bottom: 30px;
-        border: 1px solid #c6e76c;
-        border-radius: 20px;
-        padding: 20px;
-        transition: 0.5s;
-      }
-      .third-band-box:hover {
-    box-shadow: 0 6px 12px #c6e76c;
-}
+      .third-band-img img {
+        width: 100%;
       }
     </style>
   </head>
@@ -388,20 +323,22 @@ form {
     <section class="first-band">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-6 col-sm-12">
             <div class="content">
               <h1>Here’s to dating with confidence.</h1>
               <p style="margin-bottom: 35px">
-                Helping to put more of the real you in,
-for dating you feel good about.
+                Helping to put more of the real you in, for dating you feel good
+                about.
               </p>
               <div class="button">
                 <a href="#contact" onclick="goToLastSection()">To Join Us</a>
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
-            <img src="images/hero-image.webp" alt="" class="home-img" />
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="home-img">
+              <img src="images/hero-img.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
@@ -411,14 +348,17 @@ for dating you feel good about.
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-12">
             <div class="second-band-img">
-              <img src="images/confidence.webp" alt="confidence">
+              <img src="images/confidence.webp" alt="confidence" />
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
             <h1>We’re all about confidence.</h1>
-            <p>With our latest tech that helps combat fake, scam and spam accounts, you can trust that you’re talking to genuine people.
-
-              Our support and safety tools help put the real, most confident you out there — so you can find the relationships that matter.</p>
+            <p>
+              With our latest tech that helps combat fake, scam and spam
+              accounts, you can trust that you’re talking to genuine people. Our
+              support and safety tools help put the real, most confident you out
+              there — so you can find the relationships that matter.
+            </p>
           </div>
         </div>
       </div>
@@ -429,16 +369,20 @@ for dating you feel good about.
           <div class="col-lg-6 col-md-6 col-sm-12">
             <h1>Ready to chat now?</h1>
             <p>There’s no need to wait for a match.</p>
-            <br>
-            <p>Dive into the chats that go a little deeper, and get straight to the good stuff. You know, the bit where you really get to know each other.</p>
-            <br>
-            <div class="button">
+            <br />
+            <p>
+              Dive into the chats that go a little deeper, and get straight to
+              the good stuff. You know, the bit where you really get to know
+              each other.
+            </p>
+            <br />
+            <div class="button" style="margin-bottom: 30px">
               <a href="#contact" onclick="goToLastSection()">To Join Us</a>
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
             <div class="third-band-img">
-              <!-- <img src="images/nearby.webp" alt=""> -->
+              <img src="images/home-img.png" alt="" />
             </div>
           </div>
         </div>
@@ -487,7 +431,7 @@ for dating you feel good about.
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
             <div class="last-band-img">
-              <img src="images/section-trust-bg.webp" alt="">
+              <img src="images/section-trust-bg.webp" alt="" />
             </div>
           </div>
         </div>
@@ -495,7 +439,9 @@ for dating you feel good about.
     </section>
     <footer>
       <div class="footer-content">
-        <h1>Copyright 2025 - Friendy </h1>
+        <h1>
+          Copyright 2025 - Friendy by Wipster Technologies Private Limited
+        </h1>
       </div>
     </footer>
 
